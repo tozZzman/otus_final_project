@@ -1,5 +1,10 @@
+.idea/
 __pycache__/
 .pytest_cache/
+allure-results/*.png
+allure-results/*.txt
+allure-results/*.json
+screenshots/*.png
 allure-report
 failures
 *.log
