@@ -1,6 +1,7 @@
+import allure
+
 from pages.kitchen_page import KitchenPage
 from pages.locators import KitchenPageLocators
-import allure
 
 
 @allure.label('testType', 'screenshotDiff')

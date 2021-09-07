@@ -1,6 +1,7 @@
+import allure
+
 from pages.base_page import BasePage
 from pages.locators import UserPageLocators
-import allure
 
 
 class UserPage(BasePage):

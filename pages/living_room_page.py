@@ -1,8 +1,10 @@
+import time
+
+import allure
+from selenium.webdriver.common.by import By
+
 from pages.base_page import BasePage
 from pages.locators import LivingRoomPageLocators, HomePageLocators
-from selenium.webdriver.common.by import By
-import allure
-import time
 
 
 class LivingRoom(BasePage):

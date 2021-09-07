@@ -1,7 +1,9 @@
-from pages.user_page import UserPage
-from pages.locators import BasePageLocators, UserPageLocators, PersonalDataLocators
 import time
+
 import allure
+
+from pages.locators import BasePageLocators, UserPageLocators, PersonalDataLocators
+from pages.user_page import UserPage
 
 
 @allure.title('Создание нового пользователя')

@@ -1,7 +1,8 @@
-from pages.living_room_page import LivingRoom
-from pages.locators import LivingRoomPageLocators
 import allure
 import pytest
+
+from pages.living_room_page import LivingRoom
+from pages.locators import LivingRoomPageLocators
 
 
 @allure.title('Фильтрация товаров по цене')

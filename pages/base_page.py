@@ -1,17 +1,18 @@
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, StaleElementReferenceException, NoSuchElementException
-from selenium.webdriver.common.action_chains import ActionChains
-import logging
-import allure
 import datetime
+import glob
+import logging
+import os
+import time
+from io import BytesIO
+
+import allure
 from PIL import Image
 from PIL import ImageChops
-import os
 from Screenshot import Screenshot_Clipping
-from io import BytesIO
-import glob
-import time
+from selenium.common.exceptions import TimeoutException, StaleElementReferenceException, NoSuchElementException
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 
 class BasePage:

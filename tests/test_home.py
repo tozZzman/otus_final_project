@@ -1,6 +1,7 @@
-from pages.user_page import BasePage
-from pages.locators import HomePageLocators, BasePageLocators
 import allure
+
+from pages.locators import HomePageLocators, BasePageLocators
+from pages.user_page import BasePage
 
 
 @allure.title('Добавление товара в корзину из меню по ховеру')
